@@ -1,0 +1,53 @@
+# === Node.js (both frontend and backend) ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === Build outputs ===
+dist/
+.next/
+out/
+build/
+
+# === Environment files ===
+.env
+.env.local
+.env.*.local
+frontend/.env
+frontend/.env.local
+backend/.env
+backend/.env.local
+
+# === Logs ===
+logs/
+*.log
+*.log.*
+
+# === Editor & OS junk ===
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+
+# === Coverage ===
+coverage/
+*.lcov
+
+# === Uploads or generated media ===
+uploads/
+public/uploads/
+
+# === Jest / testing ===
+jest-output/
+test-results/
+
+# === Optional: if using TypeScript ===
+*.tsbuildinfo
+
+# === Optional: if using Firebase / Docker / others (customize below) ===
+firebase-debug.log
+.firebaserc
+docker-compose.override.yml
+.dockerignore
+Dockerfile
